@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NEST" Version="7.13.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OA.Base\OA.Base.csproj" />
+    <ProjectReference Include="..\OA.Repo\OA.Repo.csproj" />
+  </ItemGroup>
+
+</Project>

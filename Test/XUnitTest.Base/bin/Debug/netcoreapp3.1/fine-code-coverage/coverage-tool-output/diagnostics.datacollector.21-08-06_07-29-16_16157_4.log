@@ -1,0 +1,197 @@
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.386, 3362172641458, datacollector.dll, Version: 16.8.3
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.397, 3362172693508, datacollector.dll, DataCollectorMain.Run: Starting data collector run with args: --port,17334,--parentprocessid,3672,--diag,D:\GetHub\homeCareService\HomeCarService.BackEnd\Test\XUnitTest.Base\bin\Debug\netcoreapp3.1\fine-code-coverage\coverage-tool-output\diagnostics.datacollector.21-08-06_07-29-16_16157_4.log,--tracelevel,4
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.399, 3362172712642, datacollector.dll, DataCollector: Monitoring parent process with id: '3672'
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.416, 3362172881160, datacollector.dll, Trying to connect to server on socket : 127.0.0.1:17334 
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.461, 3362173333952, datacollector.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 11088, 6, 2021/08/06, 07:29:16.483, 3362173547875, datacollector.dll, Connected to the server successfully 
+TpTrace Information: 0 : 11088, 6, 2021/08/06, 07:29:16.483, 3362173549355, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.585, 3362174574292, datacollector.dll, DataCollector: Start Request Processing.
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.589, 3362174616085, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.BeforeTestRunStart) -> {
+  "SettingsXml": "<RunSettings><RunConfiguration><ResultsDirectory>D:\\GetHub\\homeCareService\\HomeCarService.BackEnd\\Test\\XUnitTest.Base\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory><TargetPlatform>X64</TargetPlatform><TargetFrameworkVersion>.NETCoreApp,Version=v3.1</TargetFrameworkVersion><DesignMode>False</DesignMode><CollectSourceInformation>False</CollectSourceInformation><TestAdaptersPaths>C:\\Program Files\\dotnet\\sdk\\5.0.104\\Extensions</TestAdaptersPaths></RunConfiguration><LoggerRunSettings><Loggers><Logger friendlyName=\"blame\" enabled=\"True\" /><Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\5.0.104\\vstest.console.dll\" enabled=\"True\" /></Loggers></LoggerRunSettings><DataCollectionRunSettings><DataCollectors><DataCollector friendlyName=\"blame\" enabled=\"True\"><Configuration><ResultsDirectory>D:\\GetHub\\homeCareService\\HomeCarService.BackEnd\\Test\\XUnitTest.Base\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory></Configuration></DataCollector></DataCollectors></DataCollectionRunSettings></RunSettings>",
+  "Sources": [
+    "D:\\GetHub\\homeCareService\\HomeCarService.BackEnd\\Test\\XUnitTest.Base\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\XUnitTest.Base.dll"
+  ]
+}
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.644, 3362175161264, datacollector.dll, TestPluginCache: Update extensions started. Skip filter = False
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.645, 3362175172944, datacollector.dll, TestPluginCache: Using directories for assembly resolution 'C:\Program Files\dotnet\sdk\5.0.104\Extensions'.
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.645, 3362175174400, datacollector.dll, TestPluginCache: Updated the available extensions to 'C:\Program Files\dotnet\sdk\5.0.104\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\5.0.104\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.655, 3362175268167, datacollector.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: Collector.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectorConfig TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollector
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.655, 3362175272993, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\5.0.104\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.104\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.655, 3362175274628, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.655, 3362175275310, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.656, 3362175286087, datacollector.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Program Files\dotnet\sdk\5.0.104\Extensions,C:\Program Files\dotnet\sdk\5.0.104
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.659, 3362175309507, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.659, 3362175312369, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\5.0.104\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.104\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.659, 3362175313262, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.659, 3362175313866, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.659, 3362175314785, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Program Files\dotnet\sdk\5.0.104\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.104\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.660, 3362175316486, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\5.0.104\Extensions,C:\Program Files\dotnet\sdk\5.0.104
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.660, 3362175317554, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\5.0.104\Extensions,C:\Program Files\dotnet\sdk\5.0.104
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.660, 3362175324334, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.662, 3362175338319, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.BlameDataCollector, from path: C:\Program Files\dotnet\sdk\5.0.104\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+TpTrace Error: 0 : 11088, 1, 2021/08/06, 07:29:16.664, 3362175356956, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.665, 3362175374151, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.666, 3362175383797, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.EventLogCollector, from path: C:\Program Files\dotnet\sdk\5.0.104\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Error: 0 : 11088, 1, 2021/08/06, 07:29:16.668, 3362175405065, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.EventLogCollector.EventLogDataCollector" defined in "Microsoft.TestPlatform.Extensions.EventLogCollector.dll" does not have ExtensionUri attribute.
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.669, 3362175410162, datacollector.dll, TestPluginCache: Discovered the extensions using extension path 'C:\Program Files\dotnet\sdk\5.0.104\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\5.0.104\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.669, 3362175411075, datacollector.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.669, 3362175411603, datacollector.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.669, 3362175412085, datacollector.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.669, 3362175412682, datacollector.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:16.669, 3362175413166, datacollector.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.671, 3362175427627, datacollector.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Error: 0 : 11088, 1, 2021/08/06, 07:29:16.671, 3362175433711, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.686, 3362175578339, datacollector.dll, Listening on Endpoint : 127.0.0.1:17339
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.697, 3362175689668, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection started.
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:16.772, 3362176441504, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.TestHostLaunched) -> {
+  "ProcessId": 13552
+}
+TpTrace Information: 0 : 11088, 7, 2021/08/06, 07:29:17.044, 3362179165540, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 11088, 7, 2021/08/06, 07:29:17.045, 3362179167023, datacollector.dll, Accepted Client request and set the flag
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.460, 3362193317087, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.479, 3362193509883, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.482, 3362193545789, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.CoordinateTest.GetGeoCoordinate_Return_GeoCoordinate(Lat: 15.12, Lon: 32.12) - ca13f56d-01bc-bf3c-e8d1-33647ba88d95' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.484, 3362193559125, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.484, 3362193564430, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.485, 3362193566982, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Messages.SystemMessagesTest.YourMessageAr_With_FeedBack_Return_String - 7d63be85-41eb-5ff5-c270-84701453a7c4' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.485, 3362193574253, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.486, 3362193578585, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.486, 3362193584047, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Dictionarys.RolesDictionaryTest.GetRoles_Return_List - e508c83a-3523-a930-b853-bd8d09107354' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.488, 3362193602633, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.489, 3362193607151, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.490, 3362193620507, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.JsonHelperTest.Serialize_With_Object_Return_JsonString - 3fc2c8ab-c2d9-8a49-7c50-8293053a731c' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.499, 3362193708427, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.501, 3362193735966, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.505, 3362193775553, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Messages.SystemMessagesTest.YourMessageAr_With_FeedBack_Return_String - 7d63be85-41eb-5ff5-c270-84701453a7c4' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.513, 3362193852071, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.513, 3362193854661, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.513, 3362193855788, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Messages.SystemMessagesTest.YourMessage_With_FeedBack_Return_String - b69c74a1-2365-07b4-0ca4-b46fbee433cf' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.514, 3362193861518, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.514, 3362193863675, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.514, 3362193864937, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.JsonHelperTest.Serialize_With_Object_Return_JsonString - 3fc2c8ab-c2d9-8a49-7c50-8293053a731c' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.515, 3362193870943, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.515, 3362193872877, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.515, 3362193873813, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.JsonHelperTest.Deserialize_With_Json_Return_Object - 5ffeeaca-5770-d28b-2edd-66dc44f5dcff' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.516, 3362193878558, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.516, 3362193881233, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.516, 3362193882287, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.JsonHelperTest.Deserialize_With_Json_Return_Object - 5ffeeaca-5770-d28b-2edd-66dc44f5dcff' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.517, 3362193888214, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.517, 3362193890768, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.517, 3362193891878, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Messages.SystemMessagesTest.YourMessage_With_FeedBack_Return_String - b69c74a1-2365-07b4-0ca4-b46fbee433cf' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.518, 3362193897559, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.518, 3362193900080, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.518, 3362193901815, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Dictionarys.RolesDictionaryTest.GetRoles_Return_List - e508c83a-3523-a930-b853-bd8d09107354' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.519, 3362193909872, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.519, 3362193912195, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.519, 3362193913258, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Dictionarys.RolesDictionaryTest.GetRoleKey_With_value_Return_Key - 3d7c5e7b-8eff-50d5-5400-58f1eb9890b8' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.520, 3362193920588, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.520, 3362193923282, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.520, 3362193924624, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Dictionarys.RolesDictionaryTest.GetRoleKey_With_value_Return_Key - 3d7c5e7b-8eff-50d5-5400-58f1eb9890b8' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.521, 3362193933772, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.522, 3362193936225, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.522, 3362193937346, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Dictionarys.RolesDictionaryTest.GetRoleValue_With_Key_Return_Value - f2b97923-4219-e87e-c7a8-458c1ffcd16d' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.523, 3362193946655, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.523, 3362193949495, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.523, 3362193950802, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.CoordinateTest.GetGeoCoordinate_Return_GeoCoordinate(Lat: 15.12, Lon: 32.12) - ca13f56d-01bc-bf3c-e8d1-33647ba88d95' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.524, 3362193957196, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.524, 3362193959613, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.524, 3362193960774, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Dictionarys.RolesDictionaryTest.GetRoleValue_With_Key_Return_Value - f2b97923-4219-e87e-c7a8-458c1ffcd16d' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.525, 3362193969360, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.525, 3362193971645, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.525, 3362193972677, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Messages.SystemMessagesTest+FireBaseMessagesTest.FireBaseMessagesEn_Return_String - 9da23b49-371f-d7e3-06fb-20b7880ab1b9' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.556, 3362194277619, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.556, 3362194282532, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.556, 3362194284227, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.StringCipherTest.Encrypt_With_InputText_Return_String - faf93210-18ca-fed1-2124-6cd2bc44e425' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.557, 3362194291772, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.557, 3362194295357, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.558, 3362194296901, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.GenerateRandomTest.Random4Digit_Return_RandomDigit - 3558a933-cd01-508c-cc2f-c2ca7ae58f2b' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.558, 3362194303203, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.559, 3362194306463, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.559, 3362194308153, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Messages.SystemMessagesTest+FireBaseMessagesTest.FireBaseMessagesEn_Return_String - 9da23b49-371f-d7e3-06fb-20b7880ab1b9' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.562, 3362194340035, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.562, 3362194343953, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.562, 3362194345608, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Messages.SystemMessagesTest+FireBaseMessagesTest.FireBaseMessagesAr_Return_String - d0dfc596-4a7b-745a-f058-645425eb2d3c' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.563, 3362194352636, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.564, 3362194356345, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.564, 3362194358124, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Messages.SystemMessagesTest+FireBaseMessagesTest.FireBaseMessagesAr_Return_String - d0dfc596-4a7b-745a-f058-645425eb2d3c' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.564, 3362194365824, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.565, 3362194369575, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.565, 3362194371247, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.CustomDateTimeFormat_With_hour_Return_DateTime(hour: 2) - 7b46745a-92cd-dd66-0ed5-bf3c8e7aecbc' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.566, 3362194378193, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.566, 3362194383640, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.567, 3362194386223, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.GenerateRandomTest.Random4Digit_Return_RandomDigit - 3558a933-cd01-508c-cc2f-c2ca7ae58f2b' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.567, 3362194394604, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.568, 3362194398592, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.568, 3362194400339, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.GenerateRandomTest.RandomNumDigit_With_Num_Return_RandomDigit - 3f8af9c1-c200-411d-fc30-0dd97c27b145' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.569, 3362194406748, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.569, 3362194410458, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.569, 3362194412560, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.CustomDateTimeFormat_With_hour_Return_DateTime(hour: 2) - 7b46745a-92cd-dd66-0ed5-bf3c8e7aecbc' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.570, 3362194420402, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.570, 3362194424075, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.570, 3362194425660, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.CustomDateTimeFormat_With_hour_Return_DateTime(hour: 1) - 6296b181-a824-2125-5eed-048b015d98fd' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.571, 3362194432524, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.571, 3362194435940, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.572, 3362194437630, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.CustomDateTimeFormat_With_hour_Return_DateTime(hour: 1) - 6296b181-a824-2125-5eed-048b015d98fd' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.572, 3362194445105, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.573, 3362194449155, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.573, 3362194451079, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.CustomDateTimeFormat_With_hour_Return_DateTime(hour: 3) - 2522cc18-9cca-6aeb-1385-0b9be7fc0267' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.574, 3362194457910, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.574, 3362194461825, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.574, 3362194463658, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.CustomDateTimeFormat_With_hour_Return_DateTime(hour: 3) - 2522cc18-9cca-6aeb-1385-0b9be7fc0267' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.575, 3362194471519, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.575, 3362194475209, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.576, 3362194476835, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.CustomDateTimeFormat_With_hour_Return_DateTime(hour: 4) - 9a5909c2-c00a-e6a7-9a85-28dcc4ce4faa' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.576, 3362194483660, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.577, 3362194487317, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.577, 3362194489488, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.CustomDateTimeFormat_With_hour_Return_DateTime(hour: 4) - 9a5909c2-c00a-e6a7-9a85-28dcc4ce4faa' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.578, 3362194496955, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.578, 3362194500635, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.578, 3362194502221, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.GetCurrentDateTime_With_hour_Return_DateTime(hour: 3) - 51b4b354-5051-318c-07c2-9fcf0e6bcf25' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.579, 3362194510676, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.579, 3362194514519, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.580, 3362194516378, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.GetCurrentDateTime_With_hour_Return_DateTime(hour: 3) - 51b4b354-5051-318c-07c2-9fcf0e6bcf25' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.581, 3362194533671, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.582, 3362194537578, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.582, 3362194539927, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.GetCurrentDateTime_With_hour_Return_DateTime(hour: 1) - ff785e78-e6a8-2424-1de2-2ae6256ce78c' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.583, 3362194549045, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.583, 3362194551920, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.583, 3362194553373, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.GetCurrentDateTime_With_hour_Return_DateTime(hour: 1) - ff785e78-e6a8-2424-1de2-2ae6256ce78c' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.584, 3362194562668, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.585, 3362194566333, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.585, 3362194567939, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.GetCurrentDateTime_With_hour_Return_DateTime(hour: 4) - bcd4bd33-21b2-8d97-5ded-39386139ff54' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.585, 3362194575044, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.586, 3362194579148, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.586, 3362194581044, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.GetCurrentDateTime_With_hour_Return_DateTime(hour: 4) - bcd4bd33-21b2-8d97-5ded-39386139ff54' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.587, 3362194588864, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.587, 3362194591366, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.587, 3362194592492, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.GetCurrentDateTime_With_hour_Return_DateTime(hour: 2) - 45f943ea-6931-1313-ab00-0666e58c22fc' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.588, 3362194599210, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.588, 3362194601961, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.588, 3362194603216, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.DateTimeTest.GetCurrentDateTime_With_hour_Return_DateTime(hour: 2) - 45f943ea-6931-1313-ab00-0666e58c22fc' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.589, 3362194613607, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.590, 3362194616739, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.590, 3362194618429, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.GenerateRandomTest.RandomNumDigit_With_Num_Return_RandomDigit - 3f8af9c1-c200-411d-fc30-0dd97c27b145' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.591, 3362194627276, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.591, 3362194630071, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.591, 3362194631572, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.StringCipherTest.Encrypt_With_InputText_Return_String - faf93210-18ca-fed1-2124-6cd2bc44e425' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.592, 3362194644220, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.593, 3362194648379, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.593, 3362194650285, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.StringCipherTest.Decrypt_With_EncryptText_Return_String - 71b3b058-8fe6-59c5-2d7f-070048de21e0' started.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.594, 3362194659158, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.594, 3362194663452, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.594, 3362194665108, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'XUnitTest.Base.Helper.StringCipherTest.Decrypt_With_EncryptText_Return_String - 71b3b058-8fe6-59c5-2d7f-070048de21e0' completed
+TpTrace Information: 0 : 11088, 4, 2021/08/06, 07:29:18.605, 3362194768596, datacollector.dll, DataCollectionTestCaseEventHandler: Test session ended
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:18.674, 3362195462633, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.AfterTestRunEnd) -> false
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:18.675, 3362195468984, datacollector.dll, Blame Collector : Session End
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:18.675, 3362195469812, datacollector.dll, BlameCollector.CollectDumpAndAbortTesthost: Custom path to dump directory was provided via VSTEST_DUMP_PATH. Skipping attachment upload, the caller is responsible for collecting and uploading the dumps themselves.
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:18.675, 3362195470645, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins called
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:18.675, 3362195471071, datacollector.dll, DataCollectionManager.CleanupPlugins: Cleaning up 1 plugins
+TpTrace Verbose: 0 : 11088, 1, 2021/08/06, 07:29:18.675, 3362195472069, datacollector.dll, dataCollectorInfo.DisposeDataCollector: calling Dispose() on Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:18.675, 3362195472826, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins finished
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:18.676, 3362195477248, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:18.676, 3362195479692, datacollector.dll, Closing the connection !
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:18.676, 3362195480367, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection completed
+TpTrace Information: 0 : 11088, 1, 2021/08/06, 07:29:18.676, 3362195480901, datacollector.dll, Program.Main: exiting datacollector process.

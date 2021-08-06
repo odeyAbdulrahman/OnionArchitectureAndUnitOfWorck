@@ -1,0 +1,499 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Api\\OA.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Api\\OA.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Api\\OA.Api.csproj",
+        "projectName": "OA.Api",
+        "projectPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Api\\OA.Api.csproj",
+        "packagesPath": "C:\\Users\\lenov0\\.nuget\\packages\\",
+        "outputPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenov0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Dtos\\OA.Dtos.csproj": {
+                "projectPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Dtos\\OA.Dtos.csproj"
+              },
+              "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Service\\OA.Service.csproj": {
+                "projectPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Service\\OA.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.MySql": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "AspNetCore.HealthChecks.SignalR": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.FeatureManagement": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.FeatureManagement.AspNetCore": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Base\\OA.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Base\\OA.Base.csproj",
+        "projectName": "OA.Base",
+        "projectPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Base\\OA.Base.csproj",
+        "packagesPath": "C:\\Users\\lenov0\\.nuget\\packages\\",
+        "outputPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenov0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NEST": {
+              "target": "Package",
+              "version": "[7.13.2, )"
+            },
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Data\\OA.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Data\\OA.Data.csproj",
+        "projectName": "OA.Data",
+        "projectPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Data\\OA.Data.csproj",
+        "packagesPath": "C:\\Users\\lenov0\\.nuget\\packages\\",
+        "outputPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenov0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Dtos\\OA.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Dtos\\OA.Dtos.csproj",
+        "projectName": "OA.Dtos",
+        "projectPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Dtos\\OA.Dtos.csproj",
+        "packagesPath": "C:\\Users\\lenov0\\.nuget\\packages\\",
+        "outputPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenov0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Base\\OA.Base.csproj": {
+                "projectPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Base\\OA.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Repo\\OA.Repo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Repo\\OA.Repo.csproj",
+        "projectName": "OA.Repo",
+        "projectPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Repo\\OA.Repo.csproj",
+        "packagesPath": "C:\\Users\\lenov0\\.nuget\\packages\\",
+        "outputPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Repo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenov0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Data\\OA.Data.csproj": {
+                "projectPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Data\\OA.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Service\\OA.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Service\\OA.Service.csproj",
+        "projectName": "OA.Service",
+        "projectPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Service\\OA.Service.csproj",
+        "packagesPath": "C:\\Users\\lenov0\\.nuget\\packages\\",
+        "outputPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenov0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Base\\OA.Base.csproj": {
+                "projectPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Base\\OA.Base.csproj"
+              },
+              "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Repo\\OA.Repo.csproj": {
+                "projectPath": "D:\\GetHub\\OnionArchitecture\\OnionArchitecture\\OA.Repo\\OA.Repo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NEST": {
+              "target": "Package",
+              "version": "[7.13.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.9939" branch-rate="1" version="1.9" timestamp="1628260158" lines-covered="329" lines-valid="331" branches-covered="2" branches-valid="2">
+  <sources>
+    <source>D:\GetHub\homeCareService\HomeCarService.BackEnd\</source>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="OA.Base" line-rate="1" branch-rate="1" complexity="131">
+      <classes>
+        <class name="OA.Base.Messages.FireBaseMessagesEn" filename="OA.Base\Messages\FireBaseMessages.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="2" branch="False" />
+                <line number="12" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="2" branch="False" />
+            <line number="12" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="OA.Base.Messages.FireBaseMessagesAr" filename="OA.Base\Messages\FireBaseMessages.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="2" branch="False" />
+                <line number="19" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="2" branch="False" />
+            <line number="19" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="OA.Base.Messages.SystemMessagesEn" filename="OA.Base\Messages\SystemMessages.cs" line-rate="1" branch-rate="1" complexity="56">
+          <methods>
+            <method name="get_AddedSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EditedSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DeletedSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LoginSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OTPGenerated" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AccountVerified" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ConfirmedSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ActivatedSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FreezedSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ImageUploaded" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_RestPasswordSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_SendSuccessfully" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CheckoutSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PaymentStatus" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="40" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Unauthorized" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_NotFound" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="46" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AddedFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="48" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EditedFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="50" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DeletedFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="52" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LoginFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="54" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ImageUploadedFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="56" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OTPGeneratedFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="58" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AccountNotVerified" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="60" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ConfirmedFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="62" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FreezedFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="64" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_RestPasswordFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="66" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CheckoutFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="68" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PaymentStatusFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="70" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ServeErrorFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="74" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_NullOrEmpty" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="76" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LargeSize" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="78" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_IsNotImage" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="80" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_UnUsedCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="82" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_SMSNotSend" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="84" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CodeNotUsed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="86" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CodeInCorrect" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="88" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_IsExist" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="90" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_NotAllowed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="92" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_UnActivated" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="94" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DataReserved" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="96" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PhoneNumberIsExist" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="98" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AccountIsBlocked" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="100" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CouldNotBeDeleted" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="102" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_UserAccountNotAllowed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="104" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_UnConfirmedORFreezed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="106" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_WithoutSpace" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="108" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OrderRejected" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="110" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OrderUnRejected" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="112" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CannotPerformed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="114" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PaymentNotCompleted" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="116" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OrderCannotDeleted" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="118" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_BalanceNotEnough" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="120" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaxmimQty" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="122" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OrderCompleted" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="124" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PaymentProcessNotCompleted" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="126" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="YourMessage" signature="(OA.Base.Helpers.FeedBack)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="129" hits="1" branch="False" />
+                <line number="130" hits="4" branch="False" />
+                <line number="131" hits="1" branch="False" />
+                <line number="132" hits="1" branch="False" />
+                <line number="133" hits="1" branch="False" />
+                <line number="134" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="4" branch="False" />
+            <line number="16" hits="3" branch="False" />
+            <line number="18" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="26" hits="3" branch="False" />
+            <line number="28" hits="3" branch="False" />
+            <line number="30" hits="3" branch="False" />
+            <line number="32" hits="3" branch="False" />
+            <line number="34" hits="3" branch="False" />
+            <line number="36" hits="3" branch="False" />
+            <line number="38" hits="3" branch="False" />
+            <line number="40" hits="3" branch="False" />
+            <line number="44" hits="3" branch="False" />
+            <line number="46" hits="3" branch="False" />
+            <line number="48" hits="3" branch="False" />
+            <line number="50" hits="3" branch="False" />
+            <line number="52" hits="3" branch="False" />
+            <line number="54" hits="3" branch="False" />
+            <line number="56" hits="3" branch="False" />
+            <line number="58" hits="3" branch="False" />
+            <line number="60" hits="3" branch="False" />
+            <line number="62" hits="3" branch="False" />
+            <line number="64" hits="3" branch="False" />
+            <line number="66" hits="3" branch="False" />
+            <line number="68" hits="3" branch="False" />
+            <line number="70" hits="3" branch="False" />
+            <line number="74" hits="3" branch="False" />
+            <line number="76" hits="3" branch="False" />
+            <line number="78" hits="3" branch="False" />
+            <line number="80" hits="3" branch="False" />
+            <line number="82" hits="3" branch="False" />
+            <line number="84" hits="3" branch="False" />
+            <line number="86" hits="3" branch="False" />
+            <line number="88" hits="3" branch="False" />
+            <line number="90" hits="3" branch="False" />
+            <line number="92" hits="3" branch="False" />
+            <line number="94" hits="3" branch="False" />
+            <line number="96" hits="3" branch="False" />
+            <line number="98" hits="3" branch="False" />
+            <line number="100" hits="3" branch="False" />
+            <line number="102" hits="3" branch="False" />
+            <line number="104" hits="3" branch="False" />
+            <line number="106" hits="3" branch="False" />
+            <line number="108" hits="3" branch="False" />
+            <line number="110" hits="3" branch="False" />
+            <line number="112" hits="3" branch="False" />
+            <line number="114" hits="3" branch="False" />
+            <line number="116" hits="3" branch="False" />
+            <line number="118" hits="3" branch="False" />
+            <line number="120" hits="3" branch="False" />
+            <line number="122" hits="3" branch="False" />
+            <line number="124" hits="3" branch="False" />
+            <line number="126" hits="3" branch="False" />
+            <line number="129" hits="1" branch="False" />
+            <line number="130" hits="4" branch="False" />
+            <line number="131" hits="1" branch="False" />
+            <line number="132" hits="1" branch="False" />
+            <line number="133" hits="1" branch="False" />
+            <line number="134" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="OA.Base.Messages.SystemMessagesAr" filename="OA.Base\Messages\SystemMessages.cs" line-rate="1" branch-rate="1" complexity="56">
+          <methods>
+            <method name="get_AddedSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="142" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EditedSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="144" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DeletedSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="146" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LoginSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="148" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OTPGenerated" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="150" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AccountVerified" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="152" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ConfirmedSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="154" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ActivatedSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="156" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FreezedSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="158" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ImageUploaded" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="160" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_RestPasswordSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="162" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_SendSuccessfully" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="164" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CheckoutSuccess" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="166" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PaymentStatus" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="168" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Unauthorized" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="172" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_NotFound" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="174" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AddedFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="176" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EditedFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="178" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DeletedFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="180" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LoginFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="182" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ImageUploadedFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="184" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OTPGeneratedFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="186" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AccountNotVerified" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="188" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ConfirmedFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="190" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FreezedFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="192" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_RestPasswordFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="194" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CheckoutFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="196" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PaymentStatusFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="198" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ServeErrorFail" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="202" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_NullOrEmpty" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="204" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LargeSize" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="206" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_IsNotImage" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="208" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_UnUsedCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="210" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_SMSNotSend" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="212" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CodeNotUsed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="214" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CodeInCorrect" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="216" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_IsExist" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="218" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_NotAllowed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="220" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_UnActivated" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="222" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DataReserved" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="223" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PhoneNumberIsExist" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="225" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AccountIsBlocked" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="227" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CouldNotBeDeleted" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="229" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_UserAccountNotAllowed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="231" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_UnConfirmedORFreezed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="233" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_WithoutSpace" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="235" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OrderRejected" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="237" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OrderUnRejected" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="239" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CannotPerformed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="241" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PaymentNotCompleted" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="243" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OrderCannotDeleted" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="245" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_BalanceNotEnough" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="247" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaxmimQty" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="249" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OrderCompleted" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="251" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PaymentProcessNotCompleted" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="253" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="YourMessage" signature="(OA.Base.Helpers.FeedBack)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="256" hits="1" branch="False" />
+                <line number="257" hits="6" branch="False" />
+                <line number="258" hits="1" branch="False" />
+                <line number="259" hits="1" branch="False" />
+                <line number="260" hits="1" branch="False" />
+                <line number="261" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="142" hits="4" branch="False" />
+            <line number="144" hits="3" branch="False" />
+            <line number="146" hits="3" branch="False" />
+            <line number="148" hits="3" branch="False" />
+            <line number="150" hits="3" branch="False" />
+            <line number="152" hits="3" branch="False" />
+            <line number="154" hits="3" branch="False" />
+            <line number="156" hits="3" branch="False" />
+            <line number="158" hits="3" branch="False" />
+            <line number="160" hits="3" branch="False" />
+            <line number="162" hits="3" branch="False" />
+            <line number="164" hits="3" branch="False" />
+            <line number="166" hits="3" branch="False" />
+            <line number="168" hits="3" branch="False" />
+            <line number="172" hits="3" branch="False" />
+            <line number="174" hits="3" branch="False" />
+            <line number="176" hits="3" branch="False" />
+            <line number="178" hits="3" branch="False" />
+            <line number="180" hits="3" branch="False" />
+            <line number="182" hits="3" branch="False" />
+            <line number="184" hits="3" branch="False" />
+            <line number="186" hits="3" branch="False" />
+            <line number="188" hits="3" branch="False" />
+            <line number="190" hits="3" branch="False" />
+            <line number="192" hits="3" branch="False" />
+            <line number="194" hits="3" branch="False" />
+            <line number="196" hits="3" branch="False" />
+            <line number="198" hits="3" branch="False" />
+            <line number="202" hits="3" branch="False" />
+            <line number="204" hits="3" branch="False" />
+            <line number="206" hits="3" branch="False" />
+            <line number="208" hits="3" branch="False" />
+            <line number="210" hits="3" branch="False" />
+            <line number="212" hits="3" branch="False" />
+            <line number="214" hits="3" branch="False" />
+            <line number="216" hits="3" branch="False" />
+            <line number="218" hits="3" branch="False" />
+            <line number="220" hits="3" branch="False" />
+            <line number="222" hits="3" branch="False" />
+            <line number="223" hits="3" branch="False" />
+            <line number="225" hits="3" branch="False" />
+            <line number="227" hits="3" branch="False" />
+            <line number="229" hits="3" branch="False" />
+            <line number="231" hits="3" branch="False" />
+            <line number="233" hits="3" branch="False" />
+            <line number="235" hits="3" branch="False" />
+            <line number="237" hits="3" branch="False" />
+            <line number="239" hits="3" branch="False" />
+            <line number="241" hits="3" branch="False" />
+            <line number="243" hits="3" branch="False" />
+            <line number="245" hits="3" branch="False" />
+            <line number="247" hits="3" branch="False" />
+            <line number="249" hits="3" branch="False" />
+            <line number="251" hits="3" branch="False" />
+            <line number="253" hits="3" branch="False" />
+            <line number="256" hits="1" branch="False" />
+            <line number="257" hits="6" branch="False" />
+            <line number="258" hits="1" branch="False" />
+            <line number="259" hits="1" branch="False" />
+            <line number="260" hits="1" branch="False" />
+            <line number="261" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="OA.Base.Helpers.RolesDictionary" filename="OA.Base\Dictionarys\RolesDictionary.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="AddRoles" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="13" hits="3" branch="False" />
+                <line number="14" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="17" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="15" hits="3" branch="False" />
+                <line number="16" hits="3" branch="False" />
+                <line number="17" hits="3" branch="False" />
+                <line number="18" hits="3" branch="False" />
+                <line number="19" hits="3" branch="False" />
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="False" />
+                <line number="23" hits="3" branch="False" />
+                <line number="24" hits="3" branch="False" />
+                <line number="25" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="GetRoles" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetRoleKey" signature="(System.Int64)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="2" branch="False" />
+                <line number="34" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetRoleValue" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="5" branch="False" />
+                <line number="38" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="3" branch="False" />
+            <line number="14" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="17" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="15" hits="3" branch="False" />
+            <line number="16" hits="3" branch="False" />
+            <line number="17" hits="3" branch="False" />
+            <line number="18" hits="3" branch="False" />
+            <line number="19" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="23" hits="3" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="25" hits="3" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="2" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="5" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="11" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="OA.Base.Helpers.JsonHelper" filename="OA.Base\Helpers\JsonHelper.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Serialize" signature="(System.Object)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Deserialize" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="OA.Base.Helpers.StringCiphers.StringCipher" filename="OA.Base\Helpers\StringCiphers\StringCipher.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Encrypt" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Decrypt" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="OA.Base.Helpers.GenerateRandoms.GenerateRandom" filename="OA.Base\Helpers\GenerateRandoms\GenerateRandom.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="RandomNumDigit" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+                <line number="13" hits="7" branch="False" />
+                <line number="14" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Random4Digit" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="False" />
+            <line number="13" hits="7" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="8" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="OA.Base.Helpers.DateTimes.CustomDateTime" filename="OA.Base\Helpers\DateTimes\CustomDateTime.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="GetCurrentDateTime" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="4" branch="False" />
+                <line number="13" hits="4" branch="False" />
+                <line number="14" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="CustomDateTimeFormat" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="4" branch="False" />
+                <line number="17" hits="4" branch="False" />
+                <line number="18" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="4" branch="False" />
+            <line number="13" hits="4" branch="False" />
+            <line number="14" hits="4" branch="False" />
+            <line number="16" hits="4" branch="False" />
+            <line number="17" hits="4" branch="False" />
+            <line number="18" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="OA.Base.Helpers.Coordinates.Coordinate" filename="OA.Base\Helpers\Coordinates\Coordinate.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="GetGeoCoordinate" signature="(System.Double,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="XUnitTest.Base" line-rate="0.9842" branch-rate="1" complexity="26">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="Users\lenov0\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="XUnitTest.Base.Messages.SystemMessagesTest" filename="Test\XUnitTest.Base\Messages\SystemMessagesTest.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="YourMessage_With_FeedBack_Return_String" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="YourMessageAr_With_FeedBack_Return_String" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="2" branch="False" />
+                <line number="14" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="13" hits="2" branch="False" />
+            <line number="14" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="XUnitTest.Base.Messages.SystemMessagesTest/FireBaseMessagesTest" filename="Test\XUnitTest.Base\Messages\SystemMessagesTest.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="FireBaseMessagesEn_Return_String" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="51" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="FireBaseMessagesAr_Return_String" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="64" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+                <line number="73" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="46" hits="2" branch="False" />
+                <line number="47" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="51" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="46" hits="2" branch="False" />
+            <line number="47" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="XUnitTest.Base.Helper.CoordinateTest" filename="Test\XUnitTest.Base\Helper\CoordinateTest.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="GetGeoCoordinate_Return_GeoCoordinate" signature="(System.Double,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="XUnitTest.Base.Helper.DateTimeTest" filename="Test\XUnitTest.Base\Helper\DateTimeTest.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="GetCurrentDateTime_With_hour_Return_DateTime" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="4" branch="False" />
+                <line number="22" hits="4" branch="False" />
+                <line number="23" hits="4" branch="False" />
+                <line number="25" hits="4" branch="False" />
+                <line number="26" hits="4" branch="False" />
+                <line number="27" hits="4" branch="False" />
+                <line number="28" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="CustomDateTimeFormat_With_hour_Return_DateTime" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="4" branch="False" />
+                <line number="37" hits="4" branch="False" />
+                <line number="38" hits="4" branch="False" />
+                <line number="40" hits="4" branch="False" />
+                <line number="41" hits="4" branch="False" />
+                <line number="42" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="8" branch="False" />
+                <line number="12" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="4" branch="False" />
+            <line number="22" hits="4" branch="False" />
+            <line number="23" hits="4" branch="False" />
+            <line number="25" hits="4" branch="False" />
+            <line number="26" hits="4" branch="False" />
+            <line number="27" hits="4" branch="False" />
+            <line number="28" hits="4" branch="False" />
+            <line number="33" hits="4" branch="False" />
+            <line number="37" hits="4" branch="False" />
+            <line number="38" hits="4" branch="False" />
+            <line number="40" hits="4" branch="False" />
+            <line number="41" hits="4" branch="False" />
+            <line number="42" hits="4" branch="False" />
+            <line number="11" hits="8" branch="False" />
+            <line number="12" hits="8" branch="False" />
+          </lines>
+        </class>
+        <class name="XUnitTest.Base.Helper.TimeZoneTest" filename="Test\XUnitTest.Base\Helper\DateTimeTest.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="System.Collections.IEnumerable.GetEnumerator" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="54" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="54" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="XUnitTest.Base.Helper.TimeZoneTest/&lt;GetEnumerator&gt;d__0" filename="Test\XUnitTest.Base\Helper\DateTimeTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="48" hits="2" branch="False" />
+                <line number="49" hits="2" branch="False" />
+                <line number="50" hits="2" branch="False" />
+                <line number="51" hits="2" branch="False" />
+                <line number="52" hits="2" branch="False" />
+                <line number="53" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="48" hits="2" branch="False" />
+            <line number="49" hits="2" branch="False" />
+            <line number="50" hits="2" branch="False" />
+            <line number="51" hits="2" branch="False" />
+            <line number="52" hits="2" branch="False" />
+            <line number="53" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="XUnitTest.Base.Helper.GenerateRandomTest" filename="Test\XUnitTest.Base\Helper\GenerateRandomTest.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="RandomNumDigit_With_Num_Return_RandomDigit" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Random4Digit_Return_RandomDigit" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="12" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="XUnitTest.Base.Helper.JsonHelperTest" filename="Test\XUnitTest.Base\Helper\JsonHelperTest.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Serialize_With_Object_Return_JsonString" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Deserialize_With_Json_Return_Object" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="XUnitTest.Base.Helper.StringCipherTest" filename="Test\XUnitTest.Base\Helper\StringCipherTest.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Encrypt_With_InputText_Return_String" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Decrypt_With_EncryptText_Return_String" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="11" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="XUnitTest.Base.Dictionarys.RolesDictionaryTest" filename="Test\XUnitTest.Base\Dictionarys\RolesDictionaryTest.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="GetRoles_Return_List" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="3" branch="False" />
+                <line number="24" hits="8" branch="False" />
+                <line number="25" hits="5" branch="False" />
+                <line number="26" hits="8" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetRoleKey_With_value_Return_Key" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetRoleValue_With_Key_Return_Value" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="3" branch="False" />
+            <line number="24" hits="8" branch="False" />
+            <line number="25" hits="5" branch="False" />
+            <line number="26" hits="8" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="12" hits="3" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
