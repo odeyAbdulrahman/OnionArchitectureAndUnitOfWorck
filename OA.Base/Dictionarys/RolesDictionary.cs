@@ -13,13 +13,13 @@ namespace OA.Base.Helpers
         {
             if (Roles.Count() < 7)
             {
-                Roles.Add("User", 231542980);
-                Roles.Add("Editor", 411880522);
-                Roles.Add("CustomerCare", 533384120);
-                Roles.Add("Accounts", 60004320);
-                Roles.Add("Admin", 110579020);
-                Roles.Add("Marketing", 531300120);
-                Roles.Add("GeneralDirector", 120306380);
+                Roles.Add("User", 1111111111);
+                Roles.Add("Editor", 2222222222);
+                Roles.Add("CustomerCare", 33333333);
+                Roles.Add("Accounts", 444444444);
+                Roles.Add("Admin", 555555555);
+                Roles.Add("Marketing", 666666666);
+                Roles.Add("GeneralDirector", 7777777777);
             }
             return this;
         }
