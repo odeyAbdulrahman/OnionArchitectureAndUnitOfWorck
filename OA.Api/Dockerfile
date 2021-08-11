@@ -7,16 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS build
 WORKDIR /src
-COPY ["HomeCareService.Api/HomeCareService.Api.csproj", "HomeCareService.Api/"]
-RUN dotnet restore "HomeCareService.Api/HomeCareService.Api.csproj"
+COPY ["OnionArchitecture.Api/OnionArchitecture.Api.csproj", "OnionArchitecture.Api/"]
+RUN dotnet restore "OnionArchitecture.Api/OnionArchitecture.Api.csproj"
 COPY . .
-WORKDIR "/src/HomeCareService.Api"
-RUN dotnet build "HomeCareService.Api.csproj" -c Release -o /app/build
+WORKDIR "/src/OnionArchitecture.Api"
+RUN dotnet build "OnionArchitecture.Api.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "HomeCareService.Api.csproj" -c Release -o /app/publish
+RUN dotnet publish "OnionArchitecture.Api.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "HomeCareService.Api.dll"]
+ENTRYPOINT ["dotnet", "OnionArchitecture.Api.dll"]
