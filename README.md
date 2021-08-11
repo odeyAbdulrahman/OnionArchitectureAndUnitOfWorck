@@ -1,4 +1,4 @@
-# ******************************** OnionArchitecture-UnitOfWorck ********************************
+# ************** OnionArchitecture-UnitOfWorck **************
 
 # OA / Base 
   
